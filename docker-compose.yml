@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  discord-badge-bot:
+    build: .
+    command: npm start
+    restart: unless-stopped
