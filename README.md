@@ -1,13 +1,3 @@
-# Active Developer Badge
-Discord just launched the new "Active Developer" badge and they're encouraging new developers to join the community and get it.
-If you want the badge, follow the instructions below.
-
----
-
-![image](https://i.imgur.com/z6jzw4C.png)
-
----
-
 # Instructions
 
 - Clone the repo.
