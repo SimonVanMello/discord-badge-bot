@@ -1,4 +1,4 @@
-import Command from "./models/Command.model";
+import Command from './models/Command.model';
 
 const ping: Command = {
   name: 'ping',
