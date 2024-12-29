@@ -2,6 +2,7 @@ import { Client, Events, Routes } from 'discord.js';
 import 'dotenv/config';
 
 import commands from './commands';
+import logger from './utils/logger.utils';
 
 const client = new Client({ intents: [] });
 
@@ -22,7 +23,7 @@ const main = async () => {
     body: commands,
   });
 
-  console.log('Bot running.');
+  logger.info('Bot running.');
 };
 
 main();
